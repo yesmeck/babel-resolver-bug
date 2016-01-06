@@ -3,6 +3,6 @@ import hello from '../src/index';
 
 describe('index', function() {
   it('ok', function() {
-    expect(hello, 'hello');
+    expect(hello).toEqual('hello');
   });
 });
